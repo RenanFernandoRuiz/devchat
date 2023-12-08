@@ -1,0 +1,39 @@
+.dev-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10em;
+    padding-bottom: 4em;
+}
+
+.dev-logo img{
+    filter: brightness(0) invert(1);
+}
+
+.join-container{
+    background: #fff;
+    color: #000;
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    flex-direction: column;
+
+    box-shadow: 5px 5px 17px 1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 5px 5px 17px 1px rgba(0,0,0,0.3);
+}
+
+.join-container Input{
+    text-align: center;
+}
+
+.join-container Button{
+    background: #129d93;
+    font-weight: bolder;
+}
+
+.join-container Button:hover{
+    background: #0f837b;
+}
